@@ -19,9 +19,63 @@
 		<audio src="music/lily-moon.mp3" controls="controls"></audio>
 	</section>
 	<article>
-		<h2>Please answer the following questions</h2>
-		<form></form>
-	</article>
-</body>
-
-</html>
+		<h2>Please answer the following questions :</h2>
+		<form action="https://formspree.io/romantuk@ukr.net" method="POST">
+			<label>Firs name -
+                    <input type="text" placeholder="John" name="firs name"/>
+                </label>
+                <br />
+                <br />
+                <label>Last name -
+                    <input type="text" placeholder="Smith" name="last name"/>
+                </label>
+                <br />
+                <br />
+                <label for="email"> Your email -
+                    <input type="email" placeholder="JohnSmith@example.com" id="email" name="email"/>
+                </label>
+                <br />
+                <br />
+                <label>Gender
+                    <input type="radio" name="gender" value="male">Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="male">Other
+                </label>
+                <br />
+                <br />
+                <label> Your age
+                    <select name="age" id="age" >
+                        <option>-</option>
+                        <option>less then 18</option>
+                        <option>18-25</option>
+                        <option>26-32</option>
+                        <option>more than 32</option>
+                    </select>
+                </label>
+                <br />
+                <br />
+                <label>
+                    <input type="checkbox" name="terms accepted" value="yes">I agree to the <a href="#">terms</a> and conditions.
+                </label><br />
+                <label>
+                    <input type="checkbox" name="data access" value="yes">I agree to the processing of my data.
+                </label>
+                <br>
+                <br>
+                <input type="reset" />
+                <input type="submit" />
+            </form>
+    </article>
+    <nav>
+        <p>If you want to go back to the previous page click <a href="index.html">here</a></p>
+        <P>If you would like to see an example of the survey results click <a href="img/submission.PNG">here</a></P>
+    </nav>
+    <footer>
+        <h5>Developed by Bilovus R. in VSCode. Published <time datetime="2019-09-26">September 26, 2019</time></h5>
+    </footer>
+    </body>
+    </html>
